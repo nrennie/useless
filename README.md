@@ -1,2 +1,9 @@
 # useless
-A package with useless R functions. The counterpart to the `usefunc` package.
+
+An R package with some additional useless functions.
+
+## Installation
+
+``` r
+remotes::install_github("nrennie/useless")
+```
