@@ -54,7 +54,7 @@ theme_chaos <- function() {
         colour = sample(colors(), 1)
       ),
       # plot
-      plot.margin = ggplot2::unit(runif(4, 0, 1),
+      plot.margin = ggplot2::unit(runif(4, 0.5, 1.5),
         unit = "cm"
       ),
       plot.background = ggplot2::element_rect(
